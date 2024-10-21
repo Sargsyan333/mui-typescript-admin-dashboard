@@ -1,0 +1,58 @@
+{
+  "title": "Coworkers",
+  "addCoworkerLink": "Add Coworker",
+  "table": {
+    "headers": {
+      "companyName": "Company Name",
+      "emailAddress": "Email",
+      "registrationDate": "Registration Date",
+      "invitationStatus": "Invitation Status"
+    },
+    "actionButtons": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "sendInvitation": "Send Invitation"
+    },
+    "noRecords": "No data found"
+  },
+  "addCoworker": {
+    "title": "Add Coworker",
+    "success": "Coworker added successfully!"
+  },
+  "updateCoworker": {
+    "title": "Update Coworker Data",
+    "success": "Coworker updated successfully!"
+  },
+  "form": {
+    "emailAddress": {
+      "label": "Email Address",
+      "errors": {
+        "required": "Email Address is a required field",
+        "invalid": "Email Address must be a valid email"
+      }
+    },
+    "companyName": {
+      "label": "Company Name",
+      "errors": {
+        "required": "Company Name is a required field",
+        "maxLength": "Company Name can not exceed max length of {{max}} characters"
+      }
+    },
+    "errors": {
+      "duplicate_name": "Coworker with same name already exists",
+      "duplicate_email": "Coworker with same email already exists"
+    }
+  },
+  "failedToLoadItems": "Failed to load coworkers list fro server. Please try again later!",
+  "deleteModal": {
+    "title": "Delete Coworker",
+    "content": "Are you sure you want to delete this coworker profile?",
+    "successMessage": "Coworker profile deleted successfully."
+  },
+  "sendInvitation": {
+    "success": "Invitation sent successfully",
+    "notSent": "Not Sent",
+    "accepted": "Accepted",
+    "pending": "Pending"
+  }
+}

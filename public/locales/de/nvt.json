@@ -1,0 +1,60 @@
+{
+  "title": "NVT",
+  "addNvtLink": "NVT hinzufügen",
+  "filters": {
+    "subproject": {
+      "placeholder": "Nach Teilprojekt suchen",
+      "noOptionsText": "Keine Unterprojekte gefunden"
+    }
+  },
+  "table": {
+    "headers": {
+      "code": "Code",
+      "subproject": "Teilprojekt",
+      "registrationDate": "Anmeldedatum",
+      "coworker": "Zugewiesen an"
+    },
+    "actionButtons": {
+      "edit": "Bearbeiten",
+      "delete": "Löschen"
+    },
+    "noRecords": "Keine Daten gefunden"
+  },
+  "addNvt": {
+    "title": "NVT hinzufügen",
+    "success": "NVT erfolgreich hinzugefügt!"
+  },
+  "updateNvt": {
+    "title": "NVT-Daten aktualisieren",
+    "success": "NVT erfolgreich aktualisiert!"
+  },
+  "form": {
+    "code": {
+      "label": "Code",
+      "errors": {
+        "required": "Code ist ein Pflichtfeld",
+        "length": "Code muss sein {{length}} Charaktere"
+      }
+    },
+    "subproject": {
+      "placeholder": "Nach Teilprojekt suchen...",
+      "notFound": "Keine Unterprojekte gefunden",
+      "errors": {
+        "required": "Die Auswahl eines Teilprojekts ist erforderlich"
+      }
+    },
+    "coworker": {
+      "placeholder": "Nach Kollegen suchen...",
+      "notFound": "Keine Kollegen gefunden"
+    },
+    "errors": {
+      "duplicate_code": "NVT mit demselben Code existiert bereits"
+    }
+  },
+  "failedToLoadItems": "Die NVT-Liste konnte nicht vom Server geladen werden. ",
+  "deleteModal": {
+    "title": "NVT löschen",
+    "content": "Sind Sie sicher, dass Sie diesen NVT löschen möchten?",
+    "successMessage": "NVT erfolgreich gelöscht."
+  }
+}

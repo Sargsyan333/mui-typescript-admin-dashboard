@@ -1,0 +1,1 @@
+export const isAbsoluteUrl = (path: string) => /^https?:\/\//i.test(path);

@@ -1,0 +1,154 @@
+{
+  "root": true,
+  "ignorePatterns": ["node_modules", "build", "*.js"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "react",
+    "unused-imports",
+    "eslint-plugin-absolute-imports"
+  ],
+  "extends": [
+    "airbnb-base",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "global-require": "off",
+    "no-case-declarations": "off",
+    "no-prototype-builtins": "off",
+    "no-nested-ternary": "off",
+    "guard-for-in": "off",
+    "no-plusplus": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "prefer-destructuring": [
+      "error",
+      {
+        "array": false
+      }
+    ],
+    "radix": [
+      "error",
+      "as-needed"
+    ],
+    "camelcase": 0,
+    "linebreak-style": 0,
+    "class-methods-use-this": 0,
+    "react/jsx-boolean-value": "error",
+    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-no-undef": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/self-closing-comp": "error",
+    "import/first": 1,
+    "import/newline-after-import": 1,
+    "import/no-duplicates": 1,
+    "import/order": [
+      1,
+      {
+        "groups": [
+          ["external"],
+          ["builtin", "internal", "parent", "sibling", "index"]
+        ],
+        "pathGroups": [
+          {
+            "pattern": "components/**",
+            "group": "internal"
+          },
+          {
+            "pattern": "pages/**",
+            "group": "internal"
+          },
+          {
+            "pattern": "hooks/**",
+            "group": "internal"
+          },
+          {
+            "pattern": "utils/**",
+            "group": "internal"
+          },
+          {
+            "pattern": "constants",
+            "group": "internal"
+          },
+          {
+            "pattern": "constants/**",
+            "group": "internal"
+          },
+          {
+            "pattern": "types/**",
+            "group": "internal"
+          },
+          {
+            "pattern": "services",
+            "group": "internal"
+          },
+          {
+            "pattern": "services/**",
+            "group": "internal"
+          },
+          {
+            "pattern": "providers/**",
+            "group": "internal"
+          },
+          {
+            "pattern": "providers/**",
+            "group": "internal"
+          },
+          {
+            "pattern": "assets",
+            "group": "internal"
+          },
+          {
+            "pattern": "theme",
+            "group": "internal"
+          },
+          {
+            "pattern": "theme/**",
+            "group": "internal"
+          },
+          {
+            "pattern": "__generated__/**",
+            "group": "internal"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": [
+          "builtin"
+        ],
+        "newlines-between": "always"
+      }
+    ],
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "off",
+    "no-param-reassign": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": [
+      "error",
+      "never",
+      {
+        "png": "always",
+        "jpg": "always",
+        "css": "always",
+        "ts": "always"
+      }
+    ],
+    "react/react-in-jsx-scope": 0,
+    "@typescript-eslint/no-empty-function": 0,
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error",
+    "max-classes-per-file": "off",
+    "unused-imports/no-unused-imports": "error",
+    "@typescript-eslint/no-explicit-any": "off",
+    "react-hooks/exhaustive-deps": 0,
+    "absolute-imports/only-absolute-imports": 1
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  }
+}

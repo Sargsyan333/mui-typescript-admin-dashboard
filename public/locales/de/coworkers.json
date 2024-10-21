@@ -1,0 +1,46 @@
+{
+  "title": "Kollegen",
+  "addCoworkerLink": "Kollegen hinzufügen",
+  "table": {
+    "headers": {
+      "companyName": "Name der Firma",
+      "emailAddress": "E-Mail",
+      "registrationDate": "Anmeldedatum"
+    },
+    "actionButtons": {
+      "edit": "Bearbeiten",
+      "delete": "Löschen"
+    },
+    "noRecords": "Keine Daten gefunden"
+  },
+  "addCoworker": {
+    "title": "Kollegen hinzufügen",
+    "errors": {
+      "duplicate_name": "Ein Kollege mit demselben Namen existiert bereits",
+      "duplicate_email": "Ein Kollege mit derselben E-Mail-Adresse ist bereits vorhanden"
+    },
+    "success": "Mitarbeiter erfolgreich hinzugefügt!"
+  },
+  "form": {
+    "emailAddress": {
+      "label": "E-Mail-Adresse",
+      "errors": {
+        "required": "E-Mail-Adresse ist ein Pflichtfeld",
+        "invalid": "Die E-Mail-Adresse muss eine gültige E-Mail-Adresse sein"
+      }
+    },
+    "companyName": {
+      "label": "Name der Firma",
+      "errors": {
+        "required": "Der Firmenname ist ein Pflichtfeld",
+        "maxLength": "Der Firmenname darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    }
+  },
+  "failedToLoadItems": "Die Kollegenliste konnte nicht vom Server geladen werden. ",
+  "deleteModal": {
+    "title": "Kollegen löschen",
+    "content": "Sind Sie sicher, dass Sie dieses Kollegenprofil löschen möchten?",
+    "successMessage": "Kollegenprofil erfolgreich gelöscht."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Sign In",
+  "form": {
+    "email": {
+      "label": "Email Address",
+      "errors": {
+        "required": "Email Address is a required field",
+        "invalid": "Email Address must be a valid email"
+      }
+    },
+    "password": {
+      "label": "Password",
+      "errors": {
+        "required": "Password is a required field",
+        "invalid": "Password must contain minimum eight characters, at least one letter, one number and one character"
+      }
+    },
+    "submitBtnTitle": "Submit",
+    "errors": {
+      "incorrect_credentials": "Incorrect credentials provided."
+    }
+  },
+  "footerLink": "Forgot Password?"
+}

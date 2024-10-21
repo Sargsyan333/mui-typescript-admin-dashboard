@@ -1,0 +1,70 @@
+{
+  "title": "NVT",
+  "addNvtLink": "Add NVT",
+  "filters": {
+    "project": {
+      "placeholder": "Search by project",
+      "noOptionsText": "No projects found"
+    },
+    "subproject": {
+      "placeholder": "Select subproject"
+    }
+  },
+  "table": {
+    "headers": {
+      "code": "Code",
+      "project": "Project",
+      "subproject": "Subproject",
+      "registrationDate": "Registration Date",
+      "coworker": "Assigned To"
+    },
+    "actionButtons": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "noRecords": "No data found"
+  },
+  "addNvt": {
+    "title": "Add NVT",
+    "success": "NVT added successfully!"
+  },
+  "updateNvt": {
+    "title": "Update NVT Data",
+    "success": "NVT updated successfully!"
+  },
+  "form": {
+    "code": {
+      "label": "Code",
+      "errors": {
+        "required": "Code is a required field",
+        "length": "Code must be {{length}} characters"
+      }
+    },
+    "project": {
+      "placeholder": "Search for Project...",
+      "notFound": "No projects found",
+      "errors": {
+        "required": "Project selection is required"
+      }
+    },
+    "subproject": {
+      "placeholder": "Select Subproject",
+      "errors": {
+        "required": "Subproject selection is required"
+      }
+    },
+    "coworker": {
+      "placeholder": "Search for Coworker...",
+      "notFound": "No coworkers found"
+    },
+    "errors": {
+      "duplicate_code": "NVT with same code already exists"
+    }
+  },
+  "failedToLoadItems": "Failed to load NVT list from server. Please try again later!",
+  "deleteModal": {
+    "title": "Delete NVT",
+    "content": "Are you sure you want to delete this NVT?",
+    "successMessage": "NVT deleted successfully."
+  }
+}

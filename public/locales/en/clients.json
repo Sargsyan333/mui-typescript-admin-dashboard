@@ -1,0 +1,41 @@
+{
+  "title": "Clients",
+  "addClientLink": "Add Client",
+  "table": {
+    "headers": {
+      "name": "Name",
+      "registrationDate": "Registration Date"
+    },
+    "actionButtons": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "noRecords": "No data found"
+  },
+  "addClient": {
+    "title": "Add Client",
+    "success": "Client added successfully!"
+  },
+  "updateClient": {
+    "title": "Update Client Data",
+    "success": "Client updated successfully!"
+  },
+  "form": {
+    "name": {
+      "label": "Name",
+      "errors": {
+        "required": "Name is a required field",
+        "maxLength": "Name can not exceed max length of {{max}} characters"
+      }
+    },
+    "errors": {
+      "duplicate_name": "Client with same name already exists"
+    }
+  },
+  "failedToLoadItems": "Failed to load clients list fro server. Please try again later!",
+  "deleteModal": {
+    "title": "Delete Client",
+    "content": "Are you sure you want to delete this client profile?",
+    "successMessage": "Client profile deleted successfully."
+  }
+}

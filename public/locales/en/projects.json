@@ -1,0 +1,83 @@
+{
+  "title": "Projects",
+  "addProjectLink": "Add Project",
+  "status": {
+    "published": "Published",
+    "draft": "Draft"
+  },
+  "table": {
+    "headers": {
+      "name": "Name",
+      "code": "Code",
+      "emailAddress": "Email",
+      "registrationDate": "Registration Date",
+      "client": "Client",
+      "coworker": "Assigned To",
+      "status": "Status"
+    },
+    "actionButtons": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "noRecords": "No data found"
+  },
+  "addProject": {
+    "title": "Add Project",
+    "success": "Project added successfully!"
+  },
+  "updateProject": {
+    "title": "Update Project Data",
+    "success": "Project updated successfully!"
+  },
+  "form": {
+    "name": {
+      "label": "Name",
+      "errors": {
+        "required": "Name is a required field",
+        "maxLength": "Name can not exceed max length of {{max}} characters"
+      }
+    },
+    "code": {
+      "label": "Code",
+      "errors": {
+        "required": "Code is a required field",
+        "length": "Code must be {{length}} characters"
+      }
+    },
+    "client": {
+      "placeholder": "Search for Client...",
+      "notFound": "No clients found",
+      "errors": {
+        "required": "Client selection is required"
+      }
+    },
+    "coworker": {
+      "placeholder": "Search for Coworker...",
+      "notFound": "No coworkers found"
+    },
+    "errors": {
+      "duplicate_name": "Project with same name already exists",
+      "duplicate_code": "Project with same code already exists"
+    }
+  },
+  "failedToLoadItems": "Failed to load projects list from server. Please try again later!",
+  "deleteModal": {
+    "title": "Delete Project",
+    "content": "Are you sure you want to delete this project?",
+    "successMessage": "Project deleted successfully."
+  },
+  "publishModal": {
+    "title": "Publish Project",
+    "content": "Are you sure you want to publish this project?",
+    "successMessage": "Project published successfully!",
+    "confirmText": "Publish",
+    "cancelText": "Cancel"
+  },
+  "unpublishModal": {
+    "title": "Unpublish Project",
+    "content": "Are you sure you want to unpublish this project?",
+    "successMessage": "Project unpublished successfully!",
+    "confirmText": "Make Draft",
+    "cancelText": "Cancel"
+  }
+}

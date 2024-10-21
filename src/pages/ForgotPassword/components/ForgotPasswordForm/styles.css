@@ -1,0 +1,13 @@
+.forgotPasswordForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.forgotPasswordForm .Mui-error {
+    margin-left: 0;
+}
+
+.forgotPasswordForm .Mui-error:first-letter {
+    text-transform: uppercase;
+}

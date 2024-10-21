@@ -1,0 +1,41 @@
+{
+  "title": "Kunden",
+  "addClientLink": "Client hinzufügen",
+  "table": {
+    "headers": {
+      "name": "Name",
+      "registrationDate": "Anmeldedatum"
+    },
+    "actionButtons": {
+      "edit": "Bearbeiten",
+      "delete": "Löschen"
+    },
+    "noRecords": "Keine Daten gefunden"
+  },
+  "addClient": {
+    "title": "Client hinzufügen",
+    "success": "Kunde erfolgreich hinzugefügt!"
+  },
+  "updateClient": {
+    "title": "Kundendaten aktualisieren",
+    "success": "Client erfolgreich aktualisiert!"
+  },
+  "form": {
+    "name": {
+      "label": "Name",
+      "errors": {
+        "required": "Name ist ein Pflichtfeld",
+        "maxLength": "Der Name darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "errors": {
+      "duplicate_name": "Client mit demselben Namen existiert bereits"
+    }
+  },
+  "failedToLoadItems": "Die Clientliste konnte nicht vom Server geladen werden. ",
+  "deleteModal": {
+    "title": "Client löschen",
+    "content": "Sind Sie sicher, dass Sie dieses Kundenprofil löschen möchten?",
+    "successMessage": "Kundenprofil erfolgreich gelöscht."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Welcome to Admin Dashboard",
+  "errors": {
+    "somethingWentWrong": "Something went wrong. Please try later!"
+  },
+  "header": {
+    "signOut": "Sign Out",
+    "changePassword": "Change Password"
+  },
+  "backBtn": "Back",
+  "deleteModal": {
+    "cancelText": "Cancel",
+    "confirmText": "Confirm"
+  },
+  "menu": {
+    "projects": "Projects",
+    "subprojects": "Subprojects",
+    "clients": "Clients",
+    "coworkers": "Coworkers"
+  },
+  "form": {
+    "cancelBtn": "Cancel",
+    "submitBtn": "Submit"
+  },
+  "fileUploadErrorSnackbar": {
+    "error": "Error",
+    "tryAgain": "Try again"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Anmelden",
+  "form": {
+    "email": {
+      "label": "E-Mail-Adresse",
+      "errors": {
+        "required": "E-Mail-Adresse ist ein Pflichtfeld",
+        "invalid": "Die E-Mail-Adresse muss eine gültige E-Mail-Adresse sein."
+      }
+    },
+    "password": {
+      "label": "Passwort",
+      "errors": {
+        "required": "Das Passwort ist ein Pflichtfeld",
+        "invalid": "Das Passwort muss mindestens acht Zeichen, mindestens einen Buchstaben, eine Zahl und ein Zeichen enthalten."
+      }
+    },
+    "submitBtnTitle": "Einreichen",
+    "errors": {
+      "incorrect_credentials": "Falsche Anmeldeinformationen angegeben."
+    }
+  },
+  "footerLink": "Passwort vergessen?"
+}

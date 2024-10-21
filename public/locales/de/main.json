@@ -1,0 +1,23 @@
+{
+  "title": "Willkommen beim Admin-Dashboard",
+  "errors": {
+    "somethingWentWrong": "Etwas ist schief gelaufen."
+  },
+  "header": {
+    "signOut": "Abmelden"
+  },
+  "backBtn": "Zurück",
+  "deleteModal": {
+    "cancelText": "Stornieren",
+    "confirmText": "Bestätigen"
+  },
+  "menu": {
+    "projects": "Projekte",
+    "clients": "Kunden",
+    "coworkers": "Kollegen"
+  },
+  "form": {
+    "cancelBtn": "Stornieren",
+    "submitBtn": "Einreichen"
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "title": "Montage Jobs",
+  "addJobLink": "Create New Montage Job",
+  "addJob": {
+    "title": "Create New Montage Job",
+    "success": "Montage Job created successfully!"
+  },
+  "editJob": {
+    "title": "Edit Job Data",
+    "success": "Montage Job updated successfully!"
+  },
+  "buildingType": {
+    "options": {
+      "MULTI_HOUSE": "Multi-family house",
+      "SINGLE_HOUSE": "Single-family/two-family house"
+    }
+  },
+  "form": {
+    "location": "Location",
+    "project": {
+      "placeholder": "Search for Project...",
+      "notFound": "No projects found",
+      "errors": {
+        "required": "Project selection is required"
+      }
+    },
+    "subproject": {
+      "placeholder": "Select Subproject",
+      "errors": {
+        "required": "Subproject selection is required"
+      }
+    },
+    "nvt": {
+      "placeholder": "Select NVT",
+      "errors": {
+        "required": "NVT selection is required"
+      }
+    },
+    "addressLine1": {
+      "label": "Address line 1",
+      "errors": {
+        "required": "Address line 1 is a required field",
+        "maxLength": "Address line 1 can not exceed max length of {{max}} characters"
+      }
+    },
+    "addressLine2": {
+      "label": "Address line 2",
+      "errors": {
+        "required": "Address line 2 is a required field",
+        "maxLength": "Address line 2 can not exceed max length of {{max}} characters"
+      }
+    },
+    "hupData": "HUP Data",
+    "hupCode": {
+      "label": "HUP Code",
+      "errors": {
+        "required": "HUP Code is a required field",
+        "maxLength": "HUP Code can not exceed max length of {{max}} characters"
+      }
+    },
+    "buildingType": {
+      "label": "Building Type",
+      "options": {
+        "MULTI_HOUSE": "Multi-family house",
+        "SINGLE_HOUSE": "Single-family/two-family house"
+      },
+      "errors": {
+        "required": "Building Type selection is required"
+      }
+    },
+    "hupCustomerName": {
+      "label": "HUP Customer Name",
+      "errors": {
+        "required": "HUP Customer Name is a required field",
+        "maxLength": "HUP Customer Name can not exceed max length of {{max}} characters"
+      }
+    },
+    "hupCustomerEmail": {
+      "label": "HUP Customer Email",
+      "errors": {
+        "required": "HUP Customer Email is a required field",
+        "invalid": "HUP Customer Email must be a valid email"
+      }
+    },
+    "hupCustomerPhoneNumber1": {
+      "label": "HUP Customer Phone Number 1",
+      "errors": {
+        "required": "HUP Customer Phone Number 1 is a required field",
+        "maxLength": "HUP Customer Phone Number 1 can not exceed max length of {{max}} characters"
+      }
+    },
+    "hupCustomerPhoneNumber2": {
+      "label": "HUP Customer Phone Number 2",
+      "errors": {
+        "maxLength": "HUP Customer Phone Number 2 can not exceed max length of {{max}} characters"
+      }
+    },
+    "cabelData": "Cabel Data",
+    "cabelType": {
+      "label": "Cabel Type",
+      "errors": {
+        "required": "Cabel Type selection is required"
+      }
+    },
+    "cabelCode": {
+      "label": "Cabel Code",
+      "errors": {
+        "required": "Cabel Code is a required field"
+      }
+    },
+    "tubeColor": {
+      "label": "Tube Color",
+      "errors": {
+        "required": "Tube Color selection is required"
+      }
+    },
+    "workingStuff": "Working Stuff",
+    "coworker": {
+      "placeholder": "Search for Coworker...",
+      "notFound": "No coworkers found",
+      "errors": {
+        "required": "Coworker selection is required"
+      }
+    },
+    "addOnt": "Add ONT",
+    "deleteOnt": "Delete ONT",
+    "ontCode": {
+      "label": "ONT Code",
+      "errors": {
+        "required": "ONT Code is a required field",
+        "maxLength": "ONT Code can not exceed max length of {{max}} characters"
+      }
+    },
+    "ontType": {
+      "label": "ONT Type",
+      "options": {
+        "none": "None",
+        "ont_type1": "ONT Type 1",
+        "ont_type2": "ONT Type 2",
+        "ont_type3": "ONT Type 3"
+      },
+      "errors": {
+        "required": "ONT Type selection is required"
+      }
+    },
+    "splitterCode": {
+      "label": "Splitter Code",
+      "errors": {
+        "required": "Splitter Code is a required field",
+        "maxLength": "Splitter Code can not exceed max length of {{max}} characters"
+      }
+    },
+    "splitterFiber": {
+      "label": "Splitter Fiber",
+      "errors": {
+        "required": "Splitter Fiber is a required field",
+        "maxLength": "Splitter Fiber can not exceed max length of {{max}} characters"
+      }
+    },
+    "odfCode": {
+      "label": "ODF Code",
+      "errors": {
+        "required": "ODF Code is a required field",
+        "maxLength": "ODF Code can not exceed max length of {{max}} characters"
+      }
+    },
+    "odfPos": {
+      "label": "ODF Position",
+      "errors": {
+        "required": "ODF Position is a required field",
+        "maxLength": "ODF Position can not exceed max length of {{max}} characters"
+      }
+    },
+    "isOntActive": {
+      "label": "Is Active"
+    },
+    "ontCustomerName": {
+      "label": "Customer Name",
+      "errors": {
+        "maxLength": "Customer Name can not exceed max length of {{max}} characters"
+      }
+    },
+    "ontCustomerEmail": {
+      "label": "Customer Email",
+      "errors": {
+        "email": "Customer Email must be a valid email"
+      }
+    },
+    "ontCustomerPhoneNumber1": {
+      "label": "Customer Phone Number 1",
+      "errors": {
+        "maxLength": "Customer Phone Number 1 can not exceed max length of {{max}} characters"
+      }
+    },
+    "ontCustomerPhoneNumber2": {
+      "label": "Customer Phone Number 2",
+      "errors": {
+        "maxLength": "Customer Phone Number 2 can not exceed max length of {{max}} characters"
+      }
+    },
+    "hbFile": {
+      "title": "Upload HB file",
+      "errors": {
+        "fileSize": "Your picture can be max {{maxSize}} MB!",
+        "fileFormat": "Please upload valid PDF file.",
+        "uploadFailed": "Please try again."
+      }
+    }
+  },
+  "table": {
+    "headers": {
+      "location": "Location",
+      "hup": "HUP Data",
+      "cabelProps": "Cabel Data",
+      "stuff": "Assigned To",
+      "registrationDate": "Registration Date"
+    },
+    "locationCell": {
+      "project": "Project",
+      "subproject": "Subproject",
+      "nvt": "NVT",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2"
+    },
+    "cabelPropsCell": {
+      "cabelType": "Cabel Type",
+      "cabelCode": "Cabel Code",
+      "tubeColor": "Tube Color"
+    },
+    "hupDataCell": {
+      "hupCode": "HUP Code",
+      "buildingType": "Building Type",
+      "hupCustomerName": "Customer Name",
+      "hupCustomerEmail": "Customer Email",
+      "hupCustomerPhone1": "Customer Phone 1",
+      "hupCustomerPhone2": "Customer Phone 2"
+    },
+    "actionButtons": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "publish": "Publish",
+      "unpublish": "Make Draft"
+    },
+    "noRecords": "No data found"
+  },
+  "filters": {
+    "project": {
+      "placeholder": "Search by project",
+      "noOptionsText": "No projects found"
+    }
+  },
+  "deleteModal": {
+    "title": "Delete Montage Job",
+    "content": "Are you sure you want to delete this montage job?",
+    "successMessage": "Montage Job deleted successfully."
+  },
+  "publishModal": {
+    "title": "Publish Job",
+    "content": "Are you sure you want to publish this job?",
+    "successMessage": "Job published successfully!",
+    "confirmText": "Publish",
+    "cancelText": "Cancel"
+  },
+  "unpublishModal": {
+    "title": "Unpublish Job",
+    "content": "Are you sure you want to unpublish this job?",
+    "successMessage": "Job unpublished successfully!",
+    "confirmText": "Make Draft",
+    "cancelText": "Cancel"
+  }
+}

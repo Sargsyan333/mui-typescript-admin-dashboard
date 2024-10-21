@@ -1,0 +1,15 @@
+.changePasswordForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 640px;
+    margin-top: 30px;
+}
+
+.changePasswordForm .Mui-error {
+    margin-left: 0;
+}
+
+.changePasswordForm .Mui-error:first-letter {
+    text-transform: uppercase;
+}

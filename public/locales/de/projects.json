@@ -1,0 +1,83 @@
+{
+  "title": "Projekte",
+  "addProjectLink": "Projekt hinzufügen",
+  "status": {
+    "published": "Veröffentlicht",
+    "draft": "Entwurf"
+  },
+  "table": {
+    "headers": {
+      "name": "Name",
+      "code": "Code",
+      "emailAddress": "E-Mail",
+      "registrationDate": "Anmeldedatum",
+      "client": "Kunde",
+      "coworker": "Zugewiesen an",
+      "status": "Status"
+    },
+    "actionButtons": {
+      "edit": "Bearbeiten",
+      "delete": "Löschen"
+    },
+    "noRecords": "Keine Daten gefunden"
+  },
+  "addProject": {
+    "title": "Projekt hinzufügen",
+    "success": "Projekt erfolgreich hinzugefügt!"
+  },
+  "updateProject": {
+    "title": "Projektdaten aktualisieren",
+    "success": "Projekt erfolgreich aktualisiert!"
+  },
+  "form": {
+    "name": {
+      "label": "Name",
+      "errors": {
+        "required": "Name ist ein Pflichtfeld",
+        "maxLength": "Der Name darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "code": {
+      "label": "Code",
+      "errors": {
+        "required": "Code ist ein Pflichtfeld",
+        "length": "Code muss sein {{length}} Charaktere"
+      }
+    },
+    "client": {
+      "placeholder": "Nach Kunde suchen...",
+      "notFound": "Keine Kunden gefunden",
+      "errors": {
+        "required": "Kundenauswahl ist erforderlich"
+      }
+    },
+    "coworker": {
+      "placeholder": "Nach Kollegen suchen...",
+      "notFound": "Keine Kollegen gefunden"
+    },
+    "errors": {
+      "duplicate_name": "Projekt mit demselben Namen existiert bereits",
+      "duplicate_code": "Projekt mit demselben Code existiert bereits"
+    }
+  },
+  "failedToLoadItems": "Die Projektliste konnte nicht vom Server geladen werden. ",
+  "deleteModal": {
+    "title": "Projekt löschen",
+    "content": "Möchten Sie dieses Projekt wirklich löschen?",
+    "successMessage": "Projekt erfolgreich gelöscht."
+  },
+  "publishModal": {
+    "title": "Projekt veröffentlichen",
+    "content": "Sind Sie sicher, dass Sie dieses Projekt veröffentlichen möchten?",
+    "successMessage": "Projekt erfolgreich veröffentlicht!",
+    "confirmText": "Veröffentlichen",
+    "cancelText": "Stornieren"
+  },
+  "unpublishModal": {
+    "title": "Projektveröffentlichung aufheben",
+    "content": "Möchten Sie die Veröffentlichung dieses Projekts wirklich aufheben?",
+    "successMessage": "Projekt erfolgreich unveröffentlicht!",
+    "confirmText": "Entwurf erstellen",
+    "cancelText": "Stornieren"
+  }
+}

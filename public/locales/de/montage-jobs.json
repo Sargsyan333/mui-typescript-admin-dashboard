@@ -1,0 +1,268 @@
+{
+  "title": "Montagejobs",
+  "addJobLink": "Neuen Montagejob erstellen",
+  "addJob": {
+    "title": "Neuen Montagejob erstellen",
+    "success": "Montagejob erfolgreich erstellt!"
+  },
+  "editJob": {
+    "title": "Auftragsdaten bearbeiten",
+    "success": "Montage Job erfolgreich aktualisiert!"
+  },
+  "buildingType": {
+    "options": {
+      "MULTI_HOUSE": "Mehrfamilienhaus",
+      "SINGLE_HOUSE": "Einfamilien-/Zweifamilienhaus"
+    }
+  },
+  "form": {
+    "location": "Standort",
+    "project": {
+      "placeholder": "Nach Projekt suchen...",
+      "notFound": "Keine Projekte gefunden",
+      "errors": {
+        "required": "Eine Projektauswahl ist erforderlich"
+      }
+    },
+    "subproject": {
+      "placeholder": "Wählen Sie Teilprojekt aus",
+      "errors": {
+        "required": "Die Auswahl eines Teilprojekts ist erforderlich"
+      }
+    },
+    "nvt": {
+      "placeholder": "Wählen Sie NVT",
+      "errors": {
+        "required": "NVT-Auswahl ist erforderlich"
+      }
+    },
+    "addressLine1": {
+      "label": "Adresszeile 1",
+      "errors": {
+        "required": "Adresszeile 1 ist ein Pflichtfeld",
+        "maxLength": "Adresszeile 1 darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "addressLine2": {
+      "label": "Adresszeile 2",
+      "errors": {
+        "required": "Adresszeile 2 ist ein Pflichtfeld",
+        "maxLength": "Adresszeile 2 darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "hupData": "HUP-Daten",
+    "hupCode": {
+      "label": "HUP-Code",
+      "errors": {
+        "required": "Der HUP-Code ist ein Pflichtfeld",
+        "maxLength": "Der HUP-Code darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "buildingType": {
+      "label": "Gebäudetyp",
+      "options": {
+        "MULTI_HOUSE": "Mehrfamilienhaus",
+        "SINGLE_HOUSE": "Einfamilien-/Zweifamilienhaus"
+      },
+      "errors": {
+        "required": "Die Auswahl des Gebäudetyps ist erforderlich"
+      }
+    },
+    "hupCustomerName": {
+      "label": "HUP-Kundenname",
+      "errors": {
+        "required": "Der HUP-Kundenname ist ein Pflichtfeld",
+        "maxLength": "Der HUP-Kundenname darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "hupCustomerEmail": {
+      "label": "HUP-Kunden-E-Mail",
+      "errors": {
+        "required": "Die E-Mail-Adresse des HUP-Kunden ist ein Pflichtfeld",
+        "invalid": "Die HUP-Kunden-E-Mail muss eine gültige E-Mail-Adresse sein"
+      }
+    },
+    "hupCustomerPhoneNumber1": {
+      "label": "HUP-Kundentelefonnummer 1",
+      "errors": {
+        "required": "Die HUP-Kundentelefonnummer 1 ist ein Pflichtfeld",
+        "maxLength": "Die HUP-Kundentelefonnummer 1 darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "hupCustomerPhoneNumber2": {
+      "label": "HUP-Kundentelefonnummer 2",
+      "errors": {
+        "maxLength": "Die HUP-Kundentelefonnummer 2 darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "cabelData": "Kabeldaten",
+    "cabelType": {
+      "label": "Kabeltyp",
+      "errors": {
+        "required": "Die Auswahl des Kabeltyps ist erforderlich"
+      }
+    },
+    "cabelCode": {
+      "label": "Kabelcode",
+      "errors": {
+        "required": "Der Kabelcode ist ein Pflichtfeld"
+      }
+    },
+    "tubeColor": {
+      "label": "Rohrfarbe",
+      "errors": {
+        "required": "Die Auswahl der Tubenfarbe ist erforderlich"
+      }
+    },
+    "workingStuff": "Arbeitsmaterial",
+    "coworker": {
+      "placeholder": "Nach Kollegen suchen...",
+      "notFound": "Keine Kollegen gefunden"
+    },
+    "addOnt": "ONT hinzufügen",
+    "deleteOnt": "ONT löschen",
+    "ontCode": {
+      "label": "ONT-Code",
+      "errors": {
+        "required": "Der ONT-Code ist ein Pflichtfeld",
+        "maxLength": "Der ONT-Code darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "ontType": {
+      "label": "ONT-Typ",
+      "options": {
+        "none": "Keiner",
+        "ont_type1": "ONT Typ 1",
+        "ont_type2": "ONT Typ 2",
+        "ont_type3": "ONT Typ 3"
+      },
+      "errors": {
+        "required": "Die Auswahl des ONT-Typs ist erforderlich"
+      }
+    },
+    "splitterCode": {
+      "label": "Splittercode",
+      "errors": {
+        "required": "Der Splittercode ist ein Pflichtfeld",
+        "maxLength": "Der Splittercode darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "splitterFiber": {
+      "label": "Splitterfaser",
+      "errors": {
+        "required": "Splitterfaser ist ein Pflichtfeld",
+        "maxLength": "Splitterfaser darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "odfCode": {
+      "label": "ODF-Code",
+      "errors": {
+        "required": "Der ODF-Code ist ein Pflichtfeld",
+        "maxLength": "Der ODF-Code darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "odfPos": {
+      "label": "ODF-Position",
+      "errors": {
+        "required": "Die ODF-Position ist ein Pflichtfeld",
+        "maxLength": "Die ODF-Position darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "isOntActive": {
+      "label": "Ist aktiv"
+    },
+    "ontCustomerName": {
+      "label": "Kundenname",
+      "errors": {
+        "maxLength": "Der Kundenname darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "ontCustomerEmail": {
+      "label": "Kunden-E-Mail",
+      "errors": {
+        "email": "Die Kunden-E-Mail-Adresse muss eine gültige E-Mail-Adresse sein"
+      }
+    },
+    "ontCustomerPhoneNumber1": {
+      "label": "Kundentelefonnummer 1",
+      "errors": {
+        "maxLength": "Kundentelefonnummer 1 darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "ontCustomerPhoneNumber2": {
+      "label": "Kundentelefonnummer 2",
+      "errors": {
+        "maxLength": "Kundentelefonnummer 2 darf die maximale Länge von nicht überschreiten {{max}} Charaktere"
+      }
+    },
+    "hbFile": {
+      "title": "Laden Sie die HB-Datei hoch",
+      "errors": {
+        "fileSize": "Ihr Bild darf max {{maxSize}} MB!",
+        "fileFormat": "Bitte laden Sie eine gültige PDF-Datei hoch.",
+        "uploadFailed": "Bitte versuchen Sie es erneut."
+      }
+    }
+  },
+  "table": {
+    "headers": {
+      "location": "Standort",
+      "hup": "HUP-Daten",
+      "cabelProps": "Kabeldaten",
+      "stuff": "Zugewiesen an",
+      "registrationDate": "Anmeldedatum"
+    },
+    "locationCell": {
+      "project": "Projekt",
+      "subproject": "Teilprojekt",
+      "nvt": "NVT",
+      "addressLine1": "Adresszeile 1",
+      "addressLine2": "Adresszeile 2"
+    },
+    "cabelPropsCell": {
+      "cabelType": "Kabeltyp",
+      "cabelCode": "Kabelcode",
+      "tubeColor": "Rohrfarbe"
+    },
+    "hupDataCell": {
+      "hupCode": "HUP-Code",
+      "buildingType": "Gebäudetyp",
+      "hupCustomerName": "Kundenname",
+      "hupCustomerEmail": "Kunden-E-Mail",
+      "hupCustomerPhone1": "Kundentelefon 1",
+      "hupCustomerPhone2": "Kundentelefon 2"
+    },
+    "actionButtons": {
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "publish": "Veröffentlichen",
+      "unpublish": "Entwurf erstellen"
+    },
+    "noRecords": "Keine Daten gefunden"
+  },
+  "filters": {
+    "project": {
+      "placeholder": "Suche nach Projekt",
+      "noOptionsText": "Keine Projekte gefunden"
+    }
+  },
+  "deleteModal": {
+    "title": "Montageauftrag löschen",
+    "content": "Sind Sie sicher, dass Sie diesen Montageauftrag löschen möchten?",
+    "successMessage": "Montageauftrag erfolgreich gelöscht."
+  },
+  "publishModal": {
+    "title": "Job veröffentlichen",
+    "content": "Sind Sie sicher, dass Sie diese Stelle veröffentlichen möchten?",
+    "successMessage": "Job erfolgreich veröffentlicht!",
+    "confirmText": "Veröffentlichen",
+    "cancelText": "Stornieren"
+  },
+  "unpublishModal": {
+    "title": "Veröffentlichung des Jobs aufheben",
+    "content": "Sind Sie sicher, dass Sie die Veröffentlichung dieser Stelle aufheben möchten?",
+    "successMessage": "Job erfolgreich aufgehoben!",
+    "confirmText": "Entwurf erstellen",
+    "cancelText": "Stornieren"
+  }
+}

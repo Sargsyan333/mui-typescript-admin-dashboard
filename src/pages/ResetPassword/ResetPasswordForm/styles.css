@@ -1,0 +1,13 @@
+.resetPasswordForm {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.resetPasswordForm .Mui-error {
+    margin-left: 0;
+}
+
+.resetPasswordForm .Mui-error:first-letter {
+    text-transform: uppercase;
+}

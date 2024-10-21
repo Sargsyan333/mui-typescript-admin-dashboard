@@ -1,0 +1,60 @@
+{
+  "title": "Teilprojekte",
+  "addSubprojectLink": "Unterprojekt hinzufügen",
+  "filters": {
+    "project": {
+      "placeholder": "Nach Projekt suchen",
+      "noOptionsText": "Keine Projekte gefunden"
+    }
+  },
+  "table": {
+    "headers": {
+      "code": "Code",
+      "project": "Projekt",
+      "registrationDate": "Anmeldedatum",
+      "coworker": "Zugewiesen an"
+    },
+    "actionButtons": {
+      "edit": "Bearbeiten",
+      "delete": "Löschen"
+    },
+    "noRecords": "Keine Daten gefunden"
+  },
+  "addSubproject": {
+    "title": "Unterprojekt hinzufügen",
+    "success": "Teilprojekt erfolgreich hinzugefügt!"
+  },
+  "updateSubproject": {
+    "title": "Teilprojektdaten aktualisieren",
+    "success": "Teilprojekt erfolgreich aktualisiert!"
+  },
+  "form": {
+    "code": {
+      "label": "Code",
+      "errors": {
+        "required": "Code ist ein Pflichtfeld",
+        "length": "Code muss sein {{length}} Charaktere"
+      }
+    },
+    "project": {
+      "placeholder": "Nach Projekt suchen...",
+      "notFound": "Keine Projekte gefunden",
+      "errors": {
+        "required": "Eine Projektauswahl ist erforderlich"
+      }
+    },
+    "coworker": {
+      "placeholder": "Nach Kollegen suchen...",
+      "notFound": "Keine Kollegen gefunden"
+    },
+    "errors": {
+      "duplicate_code": "Unterprojekt mit demselben Code existiert bereits"
+    }
+  },
+  "failedToLoadItems": "Die Unterprojektliste konnte nicht vom Server geladen werden. ",
+  "deleteModal": {
+    "title": "Teilprojekt löschen",
+    "content": "Möchten Sie dieses Projekt wirklich löschen?",
+    "successMessage": "Teilprojekt erfolgreich gelöscht."
+  }
+}
